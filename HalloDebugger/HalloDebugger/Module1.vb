@@ -1,14 +1,43 @@
-﻿Module Module1
+﻿Imports System.Threading
+
+Module Module1
 
     Dim titel = "HALLOOOOO WELT"
+
     Sub Main()
+
+#If DEBUG Then
+        Console.WriteLine("DEBUG")
+#End If
+
+
+        Console.ReadLine()
+
+
         Console.WriteLine("Hallo Welt")
+
+        Debugger.Log(1, "Message", "Hallo debugger")
+
+        Debug.WriteLine("Hallo Debug")
+
+
+
+        Log("Hallo Trace")
+        Warn("Trace warnung")
+
+
+
 
         Dim liste As New List(Of Person)
 
-        While True
-            liste.Add(New Person())
-        End While
+        'While True
+        '    liste.Add(New Person())
+        '    Thread.Sleep(100)
+        'End While
+
+
+        Zähle()
+
 
         Dim eingabe = Console.ReadLine()
 
@@ -21,10 +50,15 @@
         Console.ReadLine()
     End Sub
 
+    Dim localelZeug = 5
     Private Sub Zähle()
-        Dim localelZeug = 5
+
+
         For index = 1 To 10
             Console.WriteLine($"index:{index}")
+
+            localelZeug += index
+
             If index > 7 Then
                 Try
 
