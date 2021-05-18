@@ -1,0 +1,52 @@
+2021-05-18 16:08:15.947 +02:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.202\
+2021-05-18 16:08:15.980 +02:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-18 16:08:16.968 +02:00 [INF] Initializing upgrade step Select an entrypoint
+2021-05-18 16:08:16.971 +02:00 [INF] Setting entrypoint to only project in solution: C:\Users\rulan\source\repos\ppedvAG\Debug_05_2021\HalloAsync\HalloAsync\HalloAsync.vbproj
+2021-05-18 16:08:16.980 +02:00 [INF] Initializing upgrade step Select project to upgrade
+2021-05-18 16:08:17.023 +02:00 [INF] Initializing upgrade step Back up project
+2021-05-18 16:08:27.527 +02:00 [INF] Saving upgrade progress file at C:\Users\rulan\source\repos\ppedvAG\Debug_05_2021\HalloAsync\.upgrade-assistant
+2021-05-18 16:10:17.589 +02:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.202\
+2021-05-18 16:10:17.620 +02:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-18 16:10:18.587 +02:00 [INF] Loading upgrade progress file at C:\Users\rulan\source\repos\ppedvAG\Debug_05_2021\HalloAsync\.upgrade-assistant
+2021-05-18 16:10:18.618 +02:00 [INF] Initializing upgrade step Back up project
+2021-05-18 16:13:12.679 +02:00 [INF] Applying upgrade step Back up project
+2021-05-18 16:13:55.849 +02:00 [INF] Backing up C:\Users\rulan\source\repos\ppedvAG\Debug_05_2021\HalloAsync\HalloAsync to C:\Users\rulan\source\repos\ppedvAG\Debug_05_2021\HalloAsync.backup\HalloAsync
+2021-05-18 16:13:55.983 +02:00 [INF] Project backed up to C:\Users\rulan\source\repos\ppedvAG\Debug_05_2021\HalloAsync.backup\HalloAsync
+2021-05-18 16:13:55.984 +02:00 [INF] Upgrade step Back up project applied successfully
+2021-05-18 16:14:04.436 +02:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-05-18 16:14:44.385 +02:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-05-18 16:14:44.387 +02:00 [INF] Converting project file format with try-convert, version 0.7.222801
+2021-05-18 16:14:44.825 +02:00 [INF] [try-convert] C:\Users\rulan\source\repos\ppedvAG\Debug_05_2021\HalloAsync\HalloAsync\HalloAsync.vbproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-05-18 16:14:46.350 +02:00 [INF] [try-convert] Conversion complete!
+2021-05-18 16:14:46.598 +02:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-05-18 16:14:47.654 +02:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-05-18 16:14:54.490 +02:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-05-18 16:14:56.173 +02:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-18 16:14:56.176 +02:00 [INF] No package updates needed
+2021-05-18 16:14:56.177 +02:00 [INF] Initializing upgrade step Update TFM
+2021-05-18 16:14:56.184 +02:00 [INF] TFM needs updated to net5.0-windows
+2021-05-18 16:18:55.007 +02:00 [INF] Applying upgrade step Update TFM
+2021-05-18 16:18:56.467 +02:00 [INF] Updated TFM to net5.0-windows
+2021-05-18 16:18:56.468 +02:00 [INF] Upgrade step Update TFM applied successfully
+2021-05-18 16:19:00.986 +02:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-05-18 16:19:01.909 +02:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-18 16:19:02.756 +02:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-05-18 16:19:02.758 +02:00 [INF] Packages to be added: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-05-18 16:19:27.840 +02:00 [INF] Applying upgrade step Update NuGet Packages
+2021-05-18 16:19:27.843 +02:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-05-18 16:19:29.501 +02:00 [INF] Marking package System.Data.DataSetExtensions for removal because it appears to be a transitive dependency
+2021-05-18 16:19:29.513 +02:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-18 16:19:29.559 +02:00 [INF] Removing outdated package reference: System.Data.DataSetExtensions, Version=4.5.0
+2021-05-18 16:19:30.973 +02:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-18 16:19:31.030 +02:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-05-18 16:20:27.051 +02:00 [INF] Initializing upgrade step Add template files
+2021-05-18 16:20:27.086 +02:00 [INF] 0 expected template items needed
+2021-05-18 16:20:27.087 +02:00 [INF] Initializing upgrade step Upgrade app config files
+2021-05-18 16:20:27.107 +02:00 [INF] Found 0 app settings for upgrade: 
+2021-05-18 16:20:27.157 +02:00 [INF] Initializing upgrade step Move to next project
+2021-05-18 16:20:37.606 +02:00 [INF] Applying upgrade step Move to next project
+2021-05-18 16:20:37.607 +02:00 [INF] Upgrade step Move to next project applied successfully
+2021-05-18 16:20:40.278 +02:00 [INF] Initializing upgrade step Finalize upgrade
+2021-05-18 16:20:43.315 +02:00 [INF] Saving upgrade progress file at C:\Users\rulan\source\repos\ppedvAG\Debug_05_2021\HalloAsync\.upgrade-assistant

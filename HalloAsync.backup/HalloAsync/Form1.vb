@@ -1,24 +1,14 @@
 ﻿Imports System.Net.Http
-Imports System.Runtime.InteropServices
 Imports System.Threading
 
 Public Class Form1
-    Sub New()
-
-        ' This call is required by the designer.
-        InitializeComponent()
-
-        ' Add any initialization after the InitializeComponent() call.
-        Text = $"{RuntimeInformation.FrameworkDescription}"
-    End Sub
-
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
 
         For index = 1 To 100
             ProgressBar1.Value = index
             Thread.Sleep(30)
             Application.DoEvents() 'pfusch!
-            Label1.Text = $"{Index}%"
+            Label1.Text = $"{index}%"
         Next
         Label1.Text = $"Fertig"
 

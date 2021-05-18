@@ -1,0 +1,8 @@
+2021-05-18 16:07:33.574 +02:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.202\
+2021-05-18 16:07:33.695 +02:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-18 16:07:35.597 +02:00 [INF] Initializing upgrade step Select an entrypoint
+2021-05-18 16:07:35.601 +02:00 [INF] Setting entrypoint to only project in solution: C:\Users\rulan\source\repos\ppedvAG\Debug_05_2021\HalloAsync\HalloAsync\HalloAsync.vbproj
+2021-05-18 16:07:35.608 +02:00 [INF] Initializing upgrade step Select project to upgrade
+2021-05-18 16:07:35.653 +02:00 [INF] Initializing upgrade step Back up project
+2021-05-18 16:07:53.416 +02:00 [INF] Saving upgrade progress file at C:\Users\rulan\source\repos\ppedvAG\Debug_05_2021\HalloAsync\HalloAsync\.upgrade-assistant
