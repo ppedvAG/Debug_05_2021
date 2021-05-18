@@ -1,0 +1,12 @@
+https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer
+https://docs.microsoft.com/en-us/dotnet/standard/frameworks
+
+https://dotnet.microsoft.com/download/dotnet/5.0
+https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview
+
+
+https://www.best-books.dev/list/best-programming-books
+https://referencesource.microsoft.com/download.html
+https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
+https://mybuild.microsoft.com/home
+https://dotnet.microsoft.com/platform/support/policy
