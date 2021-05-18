@@ -11,7 +11,9 @@ Module Module1
 #End If
 
 
-        Console.ReadLine()
+        Dim eingabe = Console.ReadLine()
+
+        Debug.Assert(Not String.IsNullOrEmpty(eingabe))
 
 
         Console.WriteLine("Hallo Welt")
@@ -27,7 +29,6 @@ Module Module1
 
 
 
-
         Dim liste As New List(Of Person)
 
         'While True
@@ -39,7 +40,7 @@ Module Module1
         Zähle()
 
 
-        Dim eingabe = Console.ReadLine()
+        Dim eingabe2 = Console.ReadLine()
 
         Console.ReadLine()
         'todo besseren namen finden
