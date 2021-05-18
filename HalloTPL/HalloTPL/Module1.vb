@@ -10,9 +10,27 @@ Module Module1
         'Zähle()
         'Console.WriteLine("------")
         'Parallel.Invoke(AddressOf Zähle, AddressOf Zähle, AddressOf Zähle, AddressOf Zähle)
-        Parallel.For(0, 1000000, AddressOf ZeigeZahl)
+        'Parallel.For(0, 1000000, AddressOf ZeigeZahl)
+        Dim t1 As New Task(Sub()
+                               Console.WriteLine("T1 gestartet")
+                               Thread.Sleep(1200)
+                               Console.WriteLine("T1 fertig")
+                           End Sub)
 
+        Dim t2 As New Task(Of Long)(Function()
+                                        Console.WriteLine("T2 gestartet")
+                                        Thread.Sleep(800)
+                                        Console.WriteLine("T2 fertig")
+                                        Return 978453978435978435
+                                    End Function)
 
+        t1.Start()
+        t2.Start()
+
+        Thread.Sleep(10)
+
+        't2.Wait() 'implizit dur zugriff auf Result
+        Console.WriteLine($"Result of Task 2: {t2.Result}")
 
         Console.WriteLine("Ende")
         Console.ReadLine()
